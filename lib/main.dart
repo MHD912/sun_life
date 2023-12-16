@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sun_life/pages/home_page.dart';
+import 'pages/splash_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,8 +10,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomePage(),
+    return MaterialApp(
+      title: 'Sun Life',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const SplashScreen(),
     );
   }
 }
