@@ -20,7 +20,13 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red[400],
-        title: const Text("Sun Life"),
+        foregroundColor: Colors.white,
+        title: const Text(
+          "Sun Life",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
       ),
       drawer: Drawer(
         elevation: 16,
