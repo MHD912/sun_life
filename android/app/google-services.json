@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086601723732",
+    "project_id": "sun-life-dd1e8",
+    "storage_bucket": "sun-life-dd1e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086601723732:android:03a2209a7e5f34832692c1",
+        "android_client_info": {
+          "package_name": "com.example.sun_life"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoKaUKWTRfFJnmyLf6LHrPBoOYqe0c478"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
